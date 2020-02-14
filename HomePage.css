@@ -1,0 +1,41 @@
+html,
+body {
+  height: 100%;
+  background-color: rgb(41, 148, 160);
+}
+
+body {
+  display: flex;
+  -ms-flex-pack: center;
+  -webkit-box-pack: center;
+  justify-content: center;
+  color: rgb(1, 9, 73);
+}
+
+.cover-container {
+  width: 50%;
+}
+.navbar-brand{
+    padding-left: 15px;
+}
+.navbar{
+    background-color: rgb(41, 148, 160);
+}
+.container h1 {
+  padding-top: 20%;
+  padding-bottom: 5%;
+  font-family: 'Great Vibes', cursive;
+  font-size: 5em;
+}
+.container a{
+    margin-top: 5%;
+}
+.container p{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container p::first-letter{
+    padding-left: 10px;
+    font-family: 'Parisienne', cursive;
+    font-size: 2em;
+}
