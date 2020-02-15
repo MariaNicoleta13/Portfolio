@@ -1,0 +1,26 @@
+html,
+body {
+  height: 100%;
+  background-color: rgb(41, 148, 160);
+}
+
+body {
+  display: flex;
+  -ms-flex-pack: center;
+  -webkit-box-pack: center;
+  justify-content: center;
+  color: rgb(1, 9, 73);
+}
+
+.cover-container {
+  width: 80%;
+}
+.navbar-brand {
+  padding-left: 15px;
+}
+.navbar {
+  background-color: rgb(41, 148, 160);
+}
+.card{
+    width:18rem;
+}
