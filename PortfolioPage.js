@@ -44,6 +44,24 @@ var websites = [
     languages: ["Html", "Css"],
     githubLink: "https://github.com/MariaNicoleta13/slideShow",
     viewLink: "slideshow"
+  },
+  {
+    imgLink: "websitesScreenshots/Portfolio.PNG",
+    title: "Portfolio",
+    description:
+      " Making this site, I had in mind to create a site that will encapsulate in an easy way my projects across time. I wanted it to be accesible yet stylish and so, using Bootstrap and Js I decided list all of them in one place. These items illustrate where I started and where I am right now, in term of progress.",
+    languages: ["Html", "Css", "Js"],
+    githubLink: "https://github.com/MariaNicoleta13/Portfolio",
+    viewLink: ""
+  },
+  {
+    imgLink: "websitesScreenshots/animation.PNG",
+    title: "Animation",
+    description:
+      " This site was a good way of practicing pure css animation. I had a lot of fun making this site feel 'alive' and responsive without relying on Bootstrap. The responsiveness was made using Media Query.",
+    languages: ["Html", "Css"],
+    githubLink: "https://github.com/MariaNicoleta13/animationPractice",
+    viewLink: "animation-practice"
   }
 ];
 
