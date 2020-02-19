@@ -19,6 +19,15 @@ var websites = [
     viewLink: "todolist"
   },
   {
+    imgLink: "websitesScreenshots/gallery.PNG",
+    title: "Gallery",
+    description:
+      " This site is a gallery made by following a course online. While creating this site, I got used to two libraries, jquery and lightbox. With them I created this stylish gallery.",
+    languages: ["Html", "Css"],
+    githubLink: "https://github.com/MariaNicoleta13/Gallery",
+    viewLink: "gallery"
+  },
+  {
     imgLink: "websitesScreenshots/table-form.PNG",
     title: "Practice Site",
     description:
@@ -26,6 +35,15 @@ var websites = [
     languages: ["Html", "Css"],
     githubLink: "https://github.com/MariaNicoleta13/table-form",
     viewLink: "table-form"
+  },
+  {
+    imgLink: "websitesScreenshots/slideshow.PNG",
+    title: "Slideshow",
+    description:
+      " In this site I practiced making a slideshow. With this occasion, I familiarized myself with using code that someone else wrote. For this, I used a plugin for jQuery, Cycle2, that was recommended in an online course.",
+    languages: ["Html", "Css"],
+    githubLink: "https://github.com/MariaNicoleta13/slideShow",
+    viewLink: "slideshow"
   }
 ];
 
