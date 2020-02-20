@@ -1,5 +1,15 @@
 var websites = [
   {
+    imgLink: "websitesScreenshots/",
+    title: "Anime Page",
+    description:
+      "The following page is mainly based on Javascript and it purpose is to show in a nice way a list of trendy animes based on the season. It was an excellent way for me to delve a little deeper into this language. ",
+    languages: ["Html", "Css", "Js"],
+    githubLink: "https://github.com/MariaNicoleta13/AnimePage",
+    viewLink: "http://3.133.139.18:3000/"
+  },
+
+  {
     imgLink: "websitesScreenshots/Felix.PNG",
     title: "Felix",
     description:
@@ -26,6 +36,15 @@ var websites = [
     languages: ["Html", "Css"],
     githubLink: "https://github.com/MariaNicoleta13/Gallery",
     viewLink: "gallery"
+  },
+  {
+    imgLink: "websitesScreenshots/To-DoList.PNG",
+    title: "To-Do List",
+    description:
+      " The following page is made in Javascript and it uses express as framework. The idea begind it is to have a practical and easy to use To-Do list. ",
+    languages: ["Html", "Css", "Js"],
+    githubLink: "https://github.com/MariaNicoleta13/To-Do-List",
+    viewLink: "http://3.133.139.18:3001/"
   },
   {
     imgLink: "websitesScreenshots/table-form.PNG",
