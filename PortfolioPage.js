@@ -1,9 +1,9 @@
 var websites = [
   {
-    imgLink: "websitesScreenshots/",
+    imgLink: "websitesScreenshots/anime.PNG",
     title: "Anime Page",
     description:
-      "The following page is mainly based on Javascript and it purpose is to show in a nice way a list of trendy animes based on the season. It was an excellent way for me to delve a little deeper into this language. ",
+      "The following responsive page is mainly based on Javascrip. The purpose of this page is to show a list of trendy animes based on seasons. It was an excellent way for me to delve a little deeper into this language.",
     languages: ["Html", "Css", "Js"],
     githubLink: "https://github.com/MariaNicoleta13/AnimePage",
     viewLink: "http://3.133.139.18:3000/"
