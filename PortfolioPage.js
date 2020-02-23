@@ -3,7 +3,7 @@ var websites = [
     imgLink: "websitesScreenshots/anime.PNG",
     title: "Anime Page",
     description:
-      "The following responsive page is mainly based on Javascrip. The purpose of this page is to show a list of trendy animes based on seasons. It was an excellent way for me to delve a little deeper into this language.",
+      "The following page is mainly based on JavaScript and CSS. The purpose of this page is to show a responsive list of trendy animes, based on seasons. Working on this site was an excellent way for me to delve a little deeper into JavaScript.",
     languages: ["Html", "Css", "Js"],
     githubLink: "https://github.com/MariaNicoleta13/AnimePage",
     viewLink: "http://3.133.139.18:3000/"
@@ -13,17 +13,26 @@ var websites = [
     imgLink: "websitesScreenshots/Felix.PNG",
     title: "Felix",
     description:
-      " The idea of this first site bloomed from my love for Felix. He has a very colorful personality. The scope of this site is to present to the viewer, via a gallery, different moments from Felix's life. Therefore using html, css and a bit of imagination, this project was born.",
+      "The idea of this site bloomed from my love for my cat, Felix. He has a very colorful personality. The scope of this site is to present to the viewer, via a gallery, different moments from Felix's life. Therefore using CSS and a bit of imagination, this project was born.",
     languages: ["Html", "Css"],
     githubLink: "https://github.com/MariaNicoleta13/Felix",
-    viewLink: "table-form"
+    viewLink: "felix"
+  },
+  {
+    imgLink: "websitesScreenshots/Portfolio.PNG",
+    title: "Portfolio",
+    description:
+      "Making this page, I had in mind to create a site that will encapsulate in an easy way my projects across time. I wanted it to be accessible, yet stylish and so, using Bootstrap and JavaScript, I decided to list all of them in one place.",
+    languages: ["Html", "Css", "Js"],
+    githubLink: "https://github.com/MariaNicoleta13/Portfolio",
+    viewLink: "/"
   },
 
   {
     imgLink: "websitesScreenshots/Todolist.PNG",
     title: "To-do list",
     description:
-      " I find to-do lists very useful in day-to-day activities and due to that I wanted learn how one can be made. Wanting to learn more, I took an online course and based on that I created this to-do list using jQuery and Bootstrap.",
+      "I find to-do lists very useful, in day-to-day activities. Therefore I wanted to learn how one can be made. I took an online course and based on that I created this to-do list using jQuery and Bootstrap.",
     languages: ["Html", "Css", "Js"],
     githubLink: "https://github.com/MariaNicoleta13/Todolist",
     viewLink: "todolist"
@@ -32,7 +41,7 @@ var websites = [
     imgLink: "websitesScreenshots/gallery.PNG",
     title: "Gallery",
     description:
-      " This site is a gallery made by following a course online. While creating this site, I got used to two libraries, jquery and lightbox. With them I created this stylish gallery.",
+      "This site is a gallery made by following an online course. While creating this stylish gallery, I used two JavaScript libraries, jquery and lightbox.",
     languages: ["Html", "Css"],
     githubLink: "https://github.com/MariaNicoleta13/Gallery",
     viewLink: "gallery"
@@ -41,7 +50,7 @@ var websites = [
     imgLink: "websitesScreenshots/To-DoList.PNG",
     title: "To-Do List",
     description:
-      " The following page is made in Javascript and it uses express as framework. The idea begind it is to have a practical and easy to use To-Do list. ",
+      "The following page is made in JavaScript and it uses Express as a Node.js library. For this site, I took an online course where I learned to make a practical and easy to use To-Do list. ",
     languages: ["Html", "Css", "Js"],
     githubLink: "https://github.com/MariaNicoleta13/To-Do-List",
     viewLink: "http://3.133.139.18:3001/"
@@ -50,7 +59,7 @@ var websites = [
     imgLink: "websitesScreenshots/table-form.PNG",
     title: "Practice Site",
     description:
-      " As the title suggests, in this site I practiced tables and forms. This page was one of my first concept site from which I started to grow each day.",
+      "As the title suggests, in this site I practiced tables and forms while taking an online course. This page was one of my first concept site from which I started to grow each day.",
     languages: ["Html", "Css"],
     githubLink: "https://github.com/MariaNicoleta13/table-form",
     viewLink: "table-form"
@@ -59,25 +68,17 @@ var websites = [
     imgLink: "websitesScreenshots/slideshow.PNG",
     title: "Slideshow",
     description:
-      " In this site I practiced making a slideshow. With this occasion, I familiarized myself with using code that someone else wrote. For this, I used a plugin for jQuery, Cycle2, that was recommended in an online course.",
+      "This site is a slideshow made following an online course. With this occasion, I familiarized myself with using code that someone else wrote. For this, I used a plugin for jQuery, Cycle2.",
     languages: ["Html", "Css"],
     githubLink: "https://github.com/MariaNicoleta13/slideShow",
     viewLink: "slideshow"
   },
-  {
-    imgLink: "websitesScreenshots/Portfolio.PNG",
-    title: "Portfolio",
-    description:
-      " Making this site, I had in mind to create a site that will encapsulate in an easy way my projects across time. I wanted it to be accesible yet stylish and so, using Bootstrap and Js I decided list all of them in one place. These items illustrate where I started and where I am right now, in term of progress.",
-    languages: ["Html", "Css", "Js"],
-    githubLink: "https://github.com/MariaNicoleta13/Portfolio",
-    viewLink: ""
-  },
+
   {
     imgLink: "websitesScreenshots/animation.PNG",
     title: "Animation",
     description:
-      " This site was a good way of practicing pure css animation. I had a lot of fun making this site feel 'alive' and responsive without relying on Bootstrap. The responsiveness was made using Media Query.",
+      "This site was a good way of practicing pure CSS animation while following an online course. I had a lot of fun making this site feel 'alive' and responsive without relying on Bootstrap. The responsiveness was made using Media Query.",
     languages: ["Html", "Css"],
     githubLink: "https://github.com/MariaNicoleta13/animationPractice",
     viewLink: "animation-practice"
