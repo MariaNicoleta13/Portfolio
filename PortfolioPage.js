@@ -3,7 +3,7 @@ var websites = [
     imgLink: "websitesScreenshots/Order.PNG",
     title: "Order",
     description:
-      "The following website emulates an online shop with its expected functionalities such as: filtered products based on category, favoring products, adding or removing a specific quantify of a product to the shopping cart. All the user data is saved in the local storage as an JSON object for learning purpose.",
+      "This website emulates an online shop with its expected functionalities such as: filtered products based on category, favoring products, removing/adding a specific quantify of a product to the shopping cart. For learning purposes the user data is saved as a JSON object in the local storage.",
     languages: ["Html", "Css", "Js", "AngularJS"],
     githubLink: "https://github.com/MariaNicoleta13/Order",
     viewLink: "",
