@@ -6,7 +6,7 @@ var websites = [
       "This website emulates an online shop with its expected functionalities such as: filtered products based on category, favoring products, removing/adding a specific quantify of a product to the shopping cart. For learning purposes the user data is saved as a JSON object in the local storage.",
     languages: ["Html", "Css", "Js", "AngularJS"],
     githubLink: "https://github.com/MariaNicoleta13/Order",
-    viewLink: "",
+    viewLink: "http://3.133.139.18/order/",
   },
   {
     imgLink: "websitesScreenshots/anime.PNG",
