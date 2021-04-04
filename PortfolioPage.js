@@ -6,7 +6,7 @@ var websites = [
       "This website emulates an online shop with its expected functionalities such as: filtered products based on category, favoring products, removing/adding a specific quantify of a product to the shopping cart. For learning purposes the user data is saved as a JSON object in the local storage.",
     languages: ["Html", "Css", "Js", "AngularJS"],
     githubLink: "https://github.com/MariaNicoleta13/Order",
-    viewLink: "http://3.133.139.18/order/",
+    viewLink: "order",
   },
   {
     imgLink: "websitesScreenshots/anime.PNG",
@@ -64,15 +64,15 @@ var websites = [
     githubLink: "https://github.com/MariaNicoleta13/To-Do-List",
     viewLink: "http://3.133.139.18:3001/",
   },
-  {
-    imgLink: "websitesScreenshots/table-form.PNG",
-    title: "Practice Site",
-    description:
-      "As the title suggests, in this site I practiced tables and forms while taking an online course. This page was one of my first concept site from which I started to grow each day.",
-    languages: ["Html", "Css"],
-    githubLink: "https://github.com/MariaNicoleta13/table-form",
-    viewLink: "table-form",
-  },
+  // {
+  //   imgLink: "websitesScreenshots/table-form.PNG",
+  //   title: "Practice Site",
+  //   description:
+  //     "As the title suggests, in this site I practiced tables and forms while taking an online course. This page was one of my first concept site from which I started to grow each day.",
+  //   languages: ["Html", "Css"],
+  //   githubLink: "https://github.com/MariaNicoleta13/table-form",
+  //   viewLink: "table-form",
+  // },
   {
     imgLink: "websitesScreenshots/slideshow.PNG",
     title: "Slideshow",
