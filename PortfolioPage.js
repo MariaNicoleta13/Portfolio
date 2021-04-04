@@ -6,7 +6,7 @@ var websites = [
       "This website emulates an online shop with its expected functionalities such as: filtered products based on category, favoring products, removing/adding a specific quantify of a product to the shopping cart. For learning purposes the user data is saved as a JSON object in the local storage.",
     languages: ["Html", "Css", "Js", "AngularJS"],
     githubLink: "https://github.com/MariaNicoleta13/Order",
-    viewLink: "https://anime.marys-creation.gallery/",
+    viewLink: "order",
   },
   {
     imgLink: "websitesScreenshots/anime.PNG",
@@ -15,7 +15,7 @@ var websites = [
       "The following page is mainly based on JavaScript and CSS. The purpose of this page is to show a responsive list of trendy animes, based on seasons. Working on this site was an excellent way for me to delve a little deeper into JavaScript.",
     languages: ["Html", "Css", "Js"],
     githubLink: "https://github.com/MariaNicoleta13/AnimePage",
-    viewLink: "http://3.133.139.18:3000/",
+    viewLink: "https://anime.marys-creation.gallery/",
   },
 
   {
