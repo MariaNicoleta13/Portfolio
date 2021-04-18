@@ -4,7 +4,7 @@ var websites = [
     title: "Recipes",
     description:
       "Recipes is an application made with React that aims to help people passionate about cooking to keep track of their favorite recipes and find new ones. The application has many features that come in handy.",
-    languages: ["Html", "Css", "Js", "ReactJS", "json-server", "firebase"],
+    languages: ["Css", "ReactJS", "firebase"],
     githubLink: "https://github.com/MariaNicoleta13/Recipes",
     viewLink: "https://recipes.marys-creation.gallery/",
   },
