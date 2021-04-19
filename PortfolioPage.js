@@ -116,7 +116,7 @@ websites.forEach(function (website, index) {
   var card = `  
   <div class="col col-12 col-xl-4 col-lg-6 myCol">   
       <div class="card">
-        <img src=${website.imgLink} class="card-img-top"  loading="lazy" />  
+        <img src=${website.imgLink} class="card-img-top" loading="lazy"  />  
 
         <div class="card-body">
             <h5 class="card-title">${website.title}</h5>

@@ -39,3 +39,13 @@ body {
   font-family: "Parisienne", cursive;
   font-size: 2em;
 }
+@media only screen and (max-width: 650px) {
+  .cover-container {
+    width: 80%;
+  }
+}
+@media only screen and (max-width: 450px) {
+  .cover-container {
+    width: 100%;
+  }
+}
