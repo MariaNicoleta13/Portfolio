@@ -5,61 +5,103 @@ body {
 }
 
 body {
-  display: flex;
+  /* display: flex; */
   -ms-flex-pack: center;
   -webkit-box-pack: center;
   justify-content: center;
+  /* flex-wrap: wrap; */
   color: rgb(1, 9, 73);
+  width: 100%;
 }
 
-.cover-container {
-  width: 80%;
+.col {
+  padding: 0 !important;
 }
+/* navbar V2*/
+.cover-container {
+  width: 100%;
+  margin: 0 !important ;
+  background-color: rgba(1, 50, 55, 0.62);
+  min-height: 60px;
+  font-size: 2rem !important;
+}
+
 .navbar-brand {
   padding-left: 15px;
+  font-size: 2rem !important;
 }
-
-.navbar {
-  background-color: rgb(41, 148, 160);
+/* content V2*/
+.mainContent {
+  margin-top: 5rem;
 }
-.myCol {
-  display: flex;
-  justify-content: center;
-  margin-bottom: 5%;
+.mainContent,
+.row,
+.projectContainer {
+  height: auto;
+  width: 100%;
 }
-.card {
-  width: 18rem;
-  float: left;
-  background-color: rgb(225, 228, 255);
-  height: 500px;
+.row {
+  margin: 0 !important;
+  flex-direction: row;
+  row-gap: 5rem;
 }
-.card img {
-  height: 170px;
+.contentContainer {
+  min-height: 450px;
+  width: 100%;
+  background-color: rgba(1, 50, 55, 0.62);
 }
-.card-body {
-  padding: 10px;
+.titleContainer,
+.footerTextContainer {
+  padding: 0.75rem;
+  height: auto;
+  width: 100%;
 }
 .card-title {
   text-align: center;
-  color: #17a2b8;
+  color: #ffffff;
   margin: 0;
-  padding-bottom: 5px;
   font-family: "Dancing Script", cursive;
-  font-size: 2em;
+  font-size: 3rem;
+}
+.card-title::first-letter {
+  font-size: 4rem;
+}
+.bodyTextContainer {
+  padding: 0 2rem;
+  height: auto;
+  width: 100%;
 }
 .card-text {
-  color: #10707f;
+  color: #ffffff;
   font-family: "EB Garamond", serif;
+  font-size: 2rem;
 }
-.card-text::first-letter {
-  color: #0b2e8f;
-  font-size: 1.5em;
-  font-family: "Dancing Script", cursive;
-  font-weight: bold;
-  padding-left: 5px;
+.footerBtn {
+  font-size: 2rem;
+  color: white;
+  border: 4px solid rgb(41, 148, 160);
+  border-radius: 25px;
+  box-shadow: -1px 15px 26px -7px rgba(0, 0, 0, 0.73);
+}
+.imgProjectContainer {
+  width: 100%;
+  height: 450px;
+  background-color: rgba(1, 50, 55, 0.62);
+  display: flex;
+  justify-content: center;
 }
 
-.list-group-item .btn:hover {
+.card-img-top,
+.card-list-top {
+  width: 90%;
+  height: 90%;
+  align-self: center;
+}
+.footerBtn:hover {
+  color: white;
+}
+.list-group-item .btn:hover,
+.footerBtn:hover {
   cursor: initial;
   background-color: #17a2b8;
   border-color: #17a2b8;
@@ -76,7 +118,113 @@ body {
 .card-body a .btn:hover {
   color: black;
 }
-.card-footer {
-  padding-top: 2px;
-  padding-bottom: 2px;
+.listOfLanguage {
+  display: none;
+}
+.myArrayOfLangBtn {
+  background-color: #02171b !important;
+}
+.imgProjectContainer:hover .card-img-top {
+  position: absolute;
+}
+.imgProjectContainer:hover .listOfLanguage {
+  position: relative;
+  background-color: #000000a8;
+  width: 1000px;
+  height: 1000px;
+  display: block;
+}
+
+/* media for big screen */
+@media only screen and (min-width: 992px) {
+  .navbar {
+    padding: 0;
+  }
+  .cover-container {
+    height: 80px;
+  }
+  .projectContainer {
+    display: flex;
+    flex-direction: row;
+  }
+  .card-title {
+    font-size: 3rem;
+  }
+  .card-title::first-letter {
+    font-size: 3rem;
+  }
+  .card-text {
+    font-size: 1.5rem;
+  }
+  .navbar-brand,
+  .cover-container {
+    font-size: 1.5rem !important;
+  }
+  .footerBtn {
+    font-size: 1.5rem;
+  }
+  .contentContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .card-img-top,
+  .card-list-top {
+    max-height: 400px;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  .cover-container {
+    padding: 0 3rem;
+  }
+  .contentContainer {
+    padding-left: 3rem;
+  }
+  .imgProjectContainer {
+    padding-right: 3rem;
+  }
+  .card-img-top,
+  .card-list-top {
+    width: 100%;
+    max-width: 650px;
+  }
+}
+@media only screen and (min-width: 1400px) {
+  .card-title {
+    font-size: 3.5rem;
+  }
+  .card-title::first-letter {
+    font-size: 5rem;
+  }
+  .card-text,
+  .navbar-brand,
+  .nav-link {
+    font-size: 2rem !important;
+  }
+  .footerBtn {
+    font-size: 2rem;
+  }
+  .contentContainer {
+    max-height: 800px;
+  }
+  .imgProjectContainer {
+    height: auto;
+    max-height: 800px;
+  }
+  .row {
+    justify-content: center;
+  }
+  .projectContainer {
+    width: 80%;
+  }
+  .card-img-top,
+  .card-list-top {
+    max-width: 700px;
+  }
+}
+
+@media only screen and (min-width: 1500px) {
+  .imgProjectContainer {
+    padding-right: 2rem;
+  }
 }

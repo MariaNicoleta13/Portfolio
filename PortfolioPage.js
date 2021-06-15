@@ -108,35 +108,77 @@ var container = document.getElementsByClassName("row")[0];
 websites.forEach(function (website, index) {
   var lis = [];
   website.languages.forEach(function (language) {
-    var li = `<li class="list-group-item"><button type="button" class="btn btn-info">${language}</button></li>`;
+    var li = `<li class="list-group-item myArrayOfLangBtn"><button type="button" class="btn btn-info">${language}</button></li>`;
     lis.push(li);
   });
 
   // template String
-  var card = `  
-  <div class="col col-12 col-xl-4 col-lg-6 myCol">   
-      <div class="card">
-        <img src=${website.imgLink} class="card-img-top" loading="lazy"  />  
+  //   var card = `
+  //   <div class="col col-12 col-xl-4 col-lg-6 myCol">
+  //       <div class="card">
+  //         <img src=${website.imgLink} class="card-img-top" loading="lazy"  />
 
-        <div class="card-body">
-            <h5 class="card-title">${website.title}</h5>
-            <ul class="list-group list-group-flush d-flex flex-row card-body text-center">
-              ${lis.join("")}
-            </ul>
-            <p class="card-text ">${website.description}</p>
+  //         <div class="card-body">
+  //             <h5 class="card-title">${website.title}</h5>
+  //             <ul class="list-group list-group-flush d-flex flex-row card-body text-center">
+  //               ${lis.join("")}
+  //             </ul>
+  //             <p class="card-text ">${website.description}</p>
+  //         </div>
+
+  //         <div class="card-footer text-center">
+  //             <a role="button" class="btn btn-info btn-lg active card-link"
+  //               href=${website.githubLink} target="_blank">GitHub</a>
+  //             <a role="button" class="btn btn-info btn-lg active card-link"
+  //               href=${website.viewLink} target="_blank">View</a>
+  //         </div>
+  //         </div>
+  //     </div>
+  // `;
+  // var sectionZone = `
+  // <div class="column contentPerProject">
+  //   <div class="col title"><h5 class="card-title">${website.title}</h5></div>
+  //   <div class="col image">
+  //     <img src=${website.imgLink} class="card-img-top" loading="lazy"  />
+  //   </div>
+  //   <div class="col summary">
+  //     <p class="card-text ">${website.description}</p>
+  //     <ul class="list-group list-group-flush d-flex flex-row card-body text-center">
+  //     ${lis.join("")}
+  //   </ul>
+  //           <div class="card-footer text-center">
+  //               <a role="button" class="btn btn-info btn-lg active card-link"
+  //                 href=${website.githubLink} target="_blank">GitHub</a>
+  //               <a role="button" class="btn btn-info btn-lg active card-link"
+  //                 href=${website.viewLink} target="_blank">View</a>
+  //           </div>
+  //   </div>
+  // </div>`;
+
+  var sectionZone = `
+  <section class="projectContainer">
+    <div class="column contentContainer">
+        <div class=" titleContainer">
+          <h5 class="card-title">${website.title}</h5>
         </div>
-
-        
-
-        <div class="card-footer text-center">
-            <a role="button" class="btn btn-info btn-lg active card-link" 
-              href=${website.githubLink} target="_blank">GitHub</a>
-            <a role="button" class="btn btn-info btn-lg active card-link"
-              href=${website.viewLink} target="_blank">View</a>
+        <div class="bodyTextContainer">
+          <p class="card-text ">${website.description}</p>
         </div>
+        <div class=" footerTextContainer text-center">
+          <a role="button" class="btn  btn-lg active card-link footerBtn"
+            href=${website.githubLink} target="_blank">GitHub</a>
+          <a role="button" class="btn  btn-lg active card-link footerBtn"
+            href=${website.viewLink} target="_blank">View</a>
         </div>
     </div>
-`;
-
-  container.insertAdjacentHTML("beforeend", card);
+    <div class="imgProjectContainer">
+      <img src=${website.imgLink} class="card-img-top" loading="lazy"  />
+      <div class="card-list-top listOfLanguage">   
+         <ul class="list-group list-group-flush d-flex  text-center">
+          ${lis.join("")}</ul>
+         </div>
+    </div>
+  </section>
+  `;
+  container.insertAdjacentHTML("beforeend", sectionZone);
 });

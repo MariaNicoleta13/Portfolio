@@ -17,6 +17,10 @@ body {
 }
 .navbar-brand {
   padding-left: 15px;
+  font-size: 1.5rem !important;
+}
+#navbarNav {
+  font-size: 1.5rem !important;
 }
 .navbar {
   background-color: rgb(41, 148, 160);
@@ -47,5 +51,11 @@ body {
 @media only screen and (max-width: 450px) {
   .cover-container {
     width: 100%;
+  }
+}
+@media only screen and (min-width: 1300px) {
+  .navbar-brand,
+  #navbarNav {
+    font-size: 2rem;
   }
 }
