@@ -121,19 +121,19 @@ body {
 .listOfLanguage {
   display: none;
 }
-.myArrayOfLangBtn {
-  background-color: #02171b !important;
+/* .myArrayOfLangBtn {
+  background-color: #4c6f8661 !important;
 }
 .imgProjectContainer:hover .card-img-top {
   position: absolute;
 }
 .imgProjectContainer:hover .listOfLanguage {
   position: relative;
-  background-color: #000000a8;
-  width: 1000px;
-  height: 1000px;
+  background-color: #4c6f8661 ;
+  width: 100%;
+  height: 100%;
   display: block;
-}
+} */
 
 /* media for big screen */
 @media only screen and (min-width: 992px) {

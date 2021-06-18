@@ -174,7 +174,7 @@ websites.forEach(function (website, index) {
     <div class="imgProjectContainer">
       <img src=${website.imgLink} class="card-img-top" loading="lazy"  />
       <div class="card-list-top listOfLanguage">   
-         <ul class="list-group list-group-flush d-flex  text-center">
+         <ul class="list-group  d-flex  text-center">
           ${lis.join("")}</ul>
          </div>
     </div>
