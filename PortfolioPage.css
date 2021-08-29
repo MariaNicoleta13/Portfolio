@@ -76,6 +76,9 @@ body {
   font-family: "EB Garamond", serif;
   font-size: 2rem;
 }
+.card-text:hover {
+  cursor: default;
+}
 .footerBtn {
   font-size: 2rem;
   color: white;
