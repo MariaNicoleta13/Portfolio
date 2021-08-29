@@ -112,49 +112,6 @@ websites.forEach(function (website, index) {
     lis.push(li);
   });
 
-  // template String
-  //   var card = `
-  //   <div class="col col-12 col-xl-4 col-lg-6 myCol">
-  //       <div class="card">
-  //         <img src=${website.imgLink} class="card-img-top" loading="lazy"  />
-
-  //         <div class="card-body">
-  //             <h5 class="card-title">${website.title}</h5>
-  //             <ul class="list-group list-group-flush d-flex flex-row card-body text-center">
-  //               ${lis.join("")}
-  //             </ul>
-  //             <p class="card-text ">${website.description}</p>
-  //         </div>
-
-  //         <div class="card-footer text-center">
-  //             <a role="button" class="btn btn-info btn-lg active card-link"
-  //               href=${website.githubLink} target="_blank">GitHub</a>
-  //             <a role="button" class="btn btn-info btn-lg active card-link"
-  //               href=${website.viewLink} target="_blank">View</a>
-  //         </div>
-  //         </div>
-  //     </div>
-  // `;
-  // var sectionZone = `
-  // <div class="column contentPerProject">
-  //   <div class="col title"><h5 class="card-title">${website.title}</h5></div>
-  //   <div class="col image">
-  //     <img src=${website.imgLink} class="card-img-top" loading="lazy"  />
-  //   </div>
-  //   <div class="col summary">
-  //     <p class="card-text ">${website.description}</p>
-  //     <ul class="list-group list-group-flush d-flex flex-row card-body text-center">
-  //     ${lis.join("")}
-  //   </ul>
-  //           <div class="card-footer text-center">
-  //               <a role="button" class="btn btn-info btn-lg active card-link"
-  //                 href=${website.githubLink} target="_blank">GitHub</a>
-  //               <a role="button" class="btn btn-info btn-lg active card-link"
-  //                 href=${website.viewLink} target="_blank">View</a>
-  //           </div>
-  //   </div>
-  // </div>`;
-
   var sectionZone = `
   <section class="projectContainer">
     <div class="column contentContainer">
@@ -166,9 +123,9 @@ websites.forEach(function (website, index) {
         </div>
         <div class=" footerTextContainer text-center">
           <a role="button" class="btn  btn-lg active card-link footerBtn"
-            href=${website.githubLink} target="_blank">GitHub</a>
+            href=${website.githubLink} >GitHub</a>
           <a role="button" class="btn  btn-lg active card-link footerBtn"
-            href=${website.viewLink} target="_blank">View</a>
+            href=${website.viewLink} >View</a>
         </div>
     </div>
     <div class="imgProjectContainer">

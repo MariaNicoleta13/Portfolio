@@ -15,6 +15,10 @@ body {
 .cover-container {
   width: 50%;
 }
+.cover-heading {
+  font-size: 6rem !important;
+  padding-top: 10% !important;
+}
 .navbar-brand {
   padding-left: 15px;
   font-size: 1.5rem !important;
@@ -36,6 +40,7 @@ body {
 }
 .container p {
   font-family: "Montserrat", sans-serif;
+  font-size: 1.5rem !important;
 }
 
 .container p::first-letter {

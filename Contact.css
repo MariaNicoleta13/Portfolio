@@ -1,0 +1,107 @@
+html,
+body {
+  height: 100%;
+  background-color: rgb(41, 148, 160);
+}
+
+body {
+  display: flex;
+  -ms-flex-pack: center;
+  -webkit-box-pack: center;
+  justify-content: center;
+  color: rgb(1, 9, 73);
+}
+
+.cover-container {
+  width: 50%;
+}
+.container h1 {
+  padding-top: 10%;
+  padding-bottom: 5%;
+  font-family: "Great Vibes", cursive;
+  font-size: 5em;
+}
+.container p {
+  font-family: "Montserrat", sans-serif;
+}
+/* navbar */
+.navbar-brand {
+  padding-left: 15px;
+  font-size: 1.5rem !important;
+}
+#navbarNav {
+  font-size: 1.5rem !important;
+}
+.navbar {
+  background-color: rgb(41, 148, 160);
+}
+.lead {
+  font-size: 2rem !important;
+}
+.cover-heading {
+  font-size: 6rem !important;
+}
+.cover-heading:hover,
+.lead:hover {
+  cursor: default;
+}
+.external-brand-icon {
+  width: 250px;
+  height: 150px;
+}
+.gmail-container,
+.linkedin-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 50%;
+}
+.section-text {
+  margin: 0 !important;
+  font-size: 1.5rem;
+  font-weight: bolder;
+  color: white;
+  width: 150px;
+}
+.media-link {
+  padding: 0 !important;
+  height: 150px;
+  width: 100%;
+}
+
+.section-text {
+  width: 100%;
+  text-align: center;
+  word-break: break-all;
+  height: 100px;
+}
+.sections-container {
+  display: flex;
+  width: 100%;
+}
+@media screen and (max-width: 1300px) {
+  .cover-container {
+    width: 75% !important;
+  }
+  .sections-container {
+    flex-direction: column;
+  }
+  .gmail-container,
+  .linkedin-container {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 990px) {
+  .cover-container {
+    width: 80% !important;
+  }
+}
+@media screen and (max-width: 500px) {
+  .cover-container {
+    width: 100% !important;
+  }
+  .media-link {
+    width: 100%;
+  }
+}
