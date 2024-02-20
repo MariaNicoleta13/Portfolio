@@ -1,4 +1,4 @@
-var ageContainer = document.getElementById("age");
+const ageContainer = document.getElementById("age");
 
 function calculateAge(dateOfBirth) {
   const delta = Date.now() - dateOfBirth.getTime();
